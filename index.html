@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="landingpage">
+        <nav class="navbar">
+          <a class="navlogo"><img class="img_logo" src="/assets/img/logo.png" alt="logo_menu"></a>
+          <button class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="navlinkwrap">
+            <a href="#" class="navlink selectedlink">Inicio</a>
+            <a href="#discover" class="navlink">Descubre</a>
+            <a href="#best_subastas" class="navlink">Mejores subastas</a>
+            <a href="#ventajas" class="navlink">Ventajas</a>
+          </div>
+          <div class="buttonwrap">
+            <button class="createbtn selectedbtn">Crear</button>
+            <button class="createbtn">Inicia sesión</button>
+          </div>
+        </nav>
+        <div class="box">
+          <div class="infobox">
+            <p class="infobox-boldtext">
+                Descubre, colecciona y explora un extraordinario mercado de NFTs.
+            </p>
+            <p class="infobox-slimtext">
+              Adentrate a una nueva dimensión de coleccionables únicos y exclusivos. Descubre el fascinante mundo de los NFTs.
+            </p>
+            <div class="infobox-btnwrapper">
+              <button class="infobox-explorebtn selected">Explora</button>
+              <button class="infobox-createbtn">Crea</button>
+            </div>
+          </div>
+          <div class="display">
+            <img class="display-nft" src="./assets/img/NFT11.jfif" alt="Imagen NFT principal" border="0">
+            <div class="infowrapper">
+              <div class="info">
+                <img class="info-img" src="./assets/img/foto_perfil.jpg" alt="Foto perfil card" border="0">
+                <div>
+                  <p>Laura</p>
+                  <p>0.21 Ether</p>
+                </div>
+        </div>
+              <div class="info2">
+                <p>Nueva compra</p>
+                <div class="iconwrapper"> <!-- 22 * 20 -->
+                    <i class="fa-solid fa-heart icon_likes"></i>
+                    1.5k
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="auction">
+          <div class="title">
+            <p class="titlebold">Mejores subastas</p>
+            <p class="titleslim">Ver todo</p>
+          </div>
+          <div class="nft" id="best_subastas">
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT1.jfif" alt="NFT1" border="0">
+              <div class="item-title">
+                <p>Cosmos Dreams</p>
+                <p>4.20 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 7:35:25</p>
+            </div>
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT2.jfif" alt="NFT2" border="0">
+              <div class="item-title">
+                <p>Eléctricas</p>
+                <p>8.20 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 1:15:00</p>
+            </div>
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT3.jfif" border="0" alt="NFT3">
+              <div class="item-title">
+                <p>Majestuosidad</p>
+                <p>3.20 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 2:35:25</p>
+            </div>
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT4.jfif" alt="NFT4" border="0">
+              <div class="item-title">
+                <p>Estilo urbano</p>
+                <p>5.20 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 55:25</p>
+            </div>
+          </div>
+        </div>
+        <div class="started" id="ventajas">
+          <p class="started-boldtext">¡Comienza ahora!</p>
+          <p class="started-slimtext">Explora la emocionante aventura de iniciarte en el mundo de los NFTs.</p>
+          <div class="started-items">
+            <div class="itemwrapper">
+              <div class="started-items-item">
+                <i class="fa-sharp fa-solid fa-shield tamano_icon"></i>
+              </div>
+              <p>Mantén tus criptomonedas a salvo</p>
+            </div>
+            <div class="itemwrapper">
+              <div class="started-items-item">
+                <i class="fa-solid fa-box-archive tamano_icon"></i>
+              </div>
+              <p>Acceder en cualquier momento</p>
+            </div>
+            <div class="itemwrapper">
+              <div class="started-items-item">
+                <i class="fa-solid fa-users tamano_icon"></i>
+              </div>
+              <p>Comunidad en constante crecimiento.</p>
+            </div>
+            <div class="itemwrapper">
+              <div class="started-items-item">
+                <i class="fa-solid fa-rocket tamano_icon"></i>
+              </div>
+              <p>Potencial de aumento de valor.</p>
+            </div>
+          </div>
+        </div>
+        <main class="discover" id="discover">
+          <div class="discover-title">
+            <p>Descubre</p>
+            <div class="filters">
+              <div class="filter">
+                <i class="fa-solid fa-caret-down icon_filtros"></i>
+                Categorias
+              </div>
+              <div class="filter">
+                <i class="fa-solid fa-arrow-down icon_filtros"></i>
+                Filtrar por precio
+              </div>
+              <div class="filter">
+                <i class="fa-solid fa-arrow-down icon_filtros"></i>
+                Más reciente
+              </div>
+              <button class="filterbtn">
+                <i class="fa-solid fa-filter icon_filtros_last"></i>
+                Filtros
+              </button>
+            </div>
+          </div>
+          <div class="discover-items">
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT5.jfif" alt="NFT5" border="0">
+              <div class="item-title">
+                <p>Sushi robot</p>
+                <p>12.20 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 6:35:25</p>
+            </div>
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT6.jfif" alt="NFT6" border="0">
+              <div class="item-title">
+                <p>Tiburon Surfista</p>
+                <p>3.3 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 7:57:55</p>
+            </div>
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT7.jfif" border="0" alt="NFT7">
+              <div class="item-title">
+                <p>Samurai tech</p>
+                <p>12.3 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 2:35:25</p>
+            </div>
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT8.jfif" alt="NTF8" border="0">
+              <div class="item-title">
+                <p>Oso</p>
+                <p>9.0 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 35:15</p>
+            </div>
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT9.jfif" alt="NFT9" border="0">
+              <div class="item-title">
+                <p>Surfeando</p>
+                <p>17.0 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 1:22:3:35</p>
+            </div>
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT10.jfif" alt="NFT10" border="0">
+              <div class="item-title">
+                <p>Tiburon gimnasta</p>
+                <p>0.88 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 7:25:2</p>
+            </div>
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT11.jfif" alt="NFT11" border="0">
+              <div class="item-title">
+                <p>Fénix 32bits</p>
+                <p>6.66 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 1:34:35</p>
+            </div>
+            <div class=item>
+              <img class="item-img" src="./assets/img/NFT12.jfif" alt="NFT12" border="0">
+              <div class="item-title">
+                <p>Jugando</p>
+                <p>1.1 Ether</p>
+              </div>
+              <p class="item-date">Finaliza en 2:35:25</p>
+            </div>
+          </div>
+            <div class="div_button">
+                <a class="discover-loadbtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Cargar más
+                </a>
+            </div>
+        </main>
+
+        <footer class="footer">
+          <div class="footer-main">
+            ¡Gracias por unirte a nosotros en este emocionante viaje por el mundo de los NFTs! Esperamos que hayas encontrado nuestra plataforma interesante y emocionante.
+          </div>
+          <div class="footer-navigate">
+            <div class="nav">
+              <h5>Mercado</h5>
+              <p><a href="#" class="navlink selectedlink">Inicio</a></p>
+              <p><a href="#discover" class="navlink">Descubre</a></p>
+              <p><a href="#best_subastas" class="navlink">Mejores subastas</a></p>
+              <p><a href="#ventajas" class="navlink">Ventajas</a></p>
+            </div>
+            <div class="nav">
+              <h5>Compañia</h5>
+              <p><a href="#">Sobre nosotros</a></p>
+              <p><a href="#">Servicios</a></p>
+              <p><a href="#">Portafolio</a></p>
+            </div>
+            <div class="nav">
+              <h5>Siguenos</h5>
+              <p><a href="#">Facebook</a></p>
+              <p><a href="#">Instagram</a></p>
+              <p><a href="#">Twitter</a></p>
+            </div>
+          </div>
+        </footer>
+        <hr>
+
+
+        <!-- Scripts librerias -->
+        <script src="https://kit.fontawesome.com/f52a7173f8.js" crossorigin="anonymous"></script>
+</body>
